@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h2 class="mt-4">Upload a PDF to Extract Data</h2>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="pdf_file" class="form-control mt-3">
+        <button type="submit" class="btn btn-primary mt-3">Extract</button>
+    </form>
+</div>
+{% endblock %}
