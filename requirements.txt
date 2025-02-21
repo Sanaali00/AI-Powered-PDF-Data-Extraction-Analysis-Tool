@@ -1,1 +1,4 @@
 pymupdf
+pdfplumber
+pytesseract
+streamlit
