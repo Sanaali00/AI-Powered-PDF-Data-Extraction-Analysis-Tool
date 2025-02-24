@@ -14,3 +14,4 @@ langchain-openai~=0.3.6
 langchain-core~=0.3.37
 python-dotenv~=1.0.1
 pymupdf
+psycogp2
