@@ -1,9 +1,8 @@
 import numpy as np
 import streamlit as st
 from pygments.formatters import img
+from scripts.pdf_extractor import extract_text_from_pdf, extract_text_from_scanned_pdf, extract_table_from_pdf
 
-from scripts.pdf_extractor import  extract_text_from_pdf, extract_text_from_scanned_pdf, extract_table_from_pdf
-import os
 from scripts.db import save_extracted_data, init_db
 
 init_db()

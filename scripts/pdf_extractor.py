@@ -1,6 +1,5 @@
-import fitz
+import pymupdf as fitz
 import pdfplumber
-import pytesseract
 import io
 from PIL import Image
 import pytesseract
