@@ -15,4 +15,4 @@ langchain-core~=0.3.37
 python-dotenv~=1.0.1
 pymupdf
 psycopg2-binary
-.sqlite
+sqlite3
